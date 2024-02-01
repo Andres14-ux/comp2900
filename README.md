@@ -1,4 +1,4 @@
 # comp2900
 Estructura de Datos
 
-Autor: Andres M Tosado
+Autor: _Andres M Tosado_
