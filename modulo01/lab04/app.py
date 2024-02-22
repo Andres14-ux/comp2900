@@ -14,6 +14,6 @@ while (n < 4):
 
 opcion = 1
 while (opcion !=0):
-    opcion = input('0 Terminar - 1 Continuar: ')
+    opcion = int(input('0 Terminar - 1 Continuar: '))
 
 print('Fin')
