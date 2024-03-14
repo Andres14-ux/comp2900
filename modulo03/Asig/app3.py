@@ -3,6 +3,6 @@ def imprimir_numeros():
     for i in range(1, 11):
         print (i)
         number = i
-        return number
+    return number
 
-assert imprimir_numeros() == 11, "El ciclo corrio correctamente"
+assert imprimir_numeros() == 10, "El ciclo corrio correctamente"
