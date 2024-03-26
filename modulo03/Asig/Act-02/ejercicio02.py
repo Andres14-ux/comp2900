@@ -5,7 +5,7 @@ import timeit
 # de 1 a n y sumarlos
 def suma_for (n):
     suma = 0
-    for i in range (1, n+1):
+    for i in range(1, n+1):
         suma += i
     return suma
 
@@ -14,10 +14,8 @@ def suma_for (n):
 def suma_formula(n):
     return (n * (n + 1)) // 2
 
-n = list(range(1, 1001))
-
-time_for = timeit.timeit(lambda: suma_for (n), number=10000)
+time_for = timeit.timeit(lambda: suma_for (100), number=10000)
 print("Enfoque 1: ", time_for)
 
-time_formula = timeit.timeit(lambda: suma_formula (n), number=10000)
+time_formula = timeit.timeit(lambda: suma_formula (100), number=10000)
 print("Enfoque 2: ", time_formula)
